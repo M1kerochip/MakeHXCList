@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastUsedDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExtListCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="TitleExt1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Commodore Amiga</Value>
+    </Setting>
+    <Setting Name="ListExt1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.adf|.adz|.dms|.amigados|.raw|.ipf|.hfe</Value>
+    </Setting>
+    <Setting Name="TitleExt2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Atari ST</Value>
+    </Setting>
+    <Setting Name="ListExt2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.dim|.msa|.st|.stt|.stw|.stx|.raw|.ipf|.hfe</Value>
+    </Setting>
+    <Setting Name="TitleExt3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IBM PC</Value>
+    </Setting>
+    <Setting Name="ListExt3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.img|.imz|.raw|.ipf|.hfe</Value>
+    </Setting>
+    <Setting Name="TitleExt4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Common</Value>
+    </Setting>
+    <Setting Name="ListExt4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.adf|.ipf|.hfe|.st|.dsk|.img|.ima</Value>
+    </Setting>
+    <Setting Name="TitleExt5" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">All</Value>
+    </Setting>
+    <Setting Name="ListExt5" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UpdateSettings" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

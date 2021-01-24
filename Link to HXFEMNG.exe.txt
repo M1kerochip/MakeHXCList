@@ -1,0 +1,45 @@
+﻿Some notes:
+
+Purpose:
+This program creates text files for use with HXFEMNG.exe from HxC Floppy Emulator project, (c) 2006-2017 Jean-François DEL NERO / (c) HxC2001
+
+You can download it from: https://hxc2001.com/download/floppy_drive_emulator/SDCard_HxC_Floppy_Emulator_Manager.zip
+(It was in the WINDOWS folder the least time I checked)
+
+
+
+Usage:
+This program is designed to synchronise a base (PC) directory with a USB Memory stick (HDD, thumbdrive etc.)
+
+1) Set the source Directory (click the ... button and select your directory or paste in a valid path)
+
+2) Click 'Populate' and this will show a flat view of all file types in that and all sub directories.
+
+3) Add some disk images to the Export List.
+
+4) Set the UDB Drive label from the drop down list.
+
+5) Optionally tick 'Include Disk list'. This will create a list (without paths) of the disk images in your list.
+
+6) Click 'Save List'. This creates a disk list, and automatically numbers each slot in the list.
+
+7) Click 'Copy Games' to copy all games over to your USB Drive.
+
+8) Run HXNMNG.EXE from the command line, ensuring the exe is not on the USB drive when you do. eg: HXCFEMNG.EXE -verbose -disk:I:  -setslots:<FILE_YOU_CREATED>
+   This will edit the HXCSDFE.CFG on the root of the I: drive, and set the slots as per your file.
+
+
+
+Setup:
+1) Extract the files HXNMNG.EXE, SDL.dll and readme.txt into a working folder.
+
+2) Copy a DROP_TXT_HERE-DRIVE_<DRIVE_LETTER>.bat if you prefer.
+
+3) Run the MakeHXCList, and create a txt file.
+
+4) Run the HXCFEMNG.EXE, eg: HXCFEMNG.EXE -verbose -disk:I:  -setslots:<FILE_YOU_CREATED> or drop the txt file on the drive letter batch file of your USB drive.
+
+
+
+Extended Info:
+Create .HFC disk images using: https://hxc2001.com/download/floppy_drive_emulator/HxCFloppyEmulator_soft_beta.zip
